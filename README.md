@@ -42,15 +42,6 @@ config/examples/                      editable dock and CycloneDDS examples
 
 The archived dock depended on a pre-existing `graph_pid_ws` whose full source provenance was not preserved, so the project deliberately avoids claiming a universal one-command dock installer.
 
-## Build the documentation
-
-```bash
-./tools/build_docs.sh
-source .venv/bin/activate
-mkdocs serve
-```
-
-Open `http://127.0.0.1:8000/`.
 
 ## What the project demonstrates
 
