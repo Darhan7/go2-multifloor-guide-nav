@@ -1,0 +1,42 @@
+# ROS / colcon
+build/
+install/
+log/
+*.bag
+*.db3
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Raw private exports
+go2_dock_final_export/
+go2_project_export/
+go2_project_export_v2/
+*.tar.gz
+# Private environment / network snapshots
+env_snapshot/
+network_snapshot/
+*_snapshot/
+system_network_ros_snapshot.txt
+# Logs and runtime files
+*.log
+*.pid
+tmp/
+# Editor
+.vscode/
+.idea/
+.DS_Store
+# MkDocs build output
+site/
+# Documentation virtual environment
+# Local progress and security reports
+check_progress.sh
+progress_report.txt
+security_check.txt
+# MkDocs local build
+# Local documentation backups
+_documentation_backup_*/
+# Internal documentation checks
+_zh_asset_hotfix_backup_*/

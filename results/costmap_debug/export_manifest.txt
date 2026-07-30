@@ -1,0 +1,159 @@
+========== checking source dirs ==========
+[OK] /home/unitree/go2_guide_project/maps
+5.9M	/home/unitree/go2_guide_project/maps
+[OK] /home/unitree/go2_guide_project/semantic
+20K	/home/unitree/go2_guide_project/semantic
+[OK] /home/unitree/go2_guide_project/navigation/config
+36K	/home/unitree/go2_guide_project/navigation/config
+[OK] /home/unitree/go2_guide_project/navigation/logs
+288K	/home/unitree/go2_guide_project/navigation/logs
+[OK] /home/unitree/go2_nav_official_ws/scripts
+84K	/home/unitree/go2_nav_official_ws/scripts
+[OK] /home/unitree/go2_nav_official_ws/debug_routes
+200K	/home/unitree/go2_nav_official_ws/debug_routes
+[OK] /home/unitree/go2_nav_official_ws/floor3_localize.sh
+8.0K	/home/unitree/go2_nav_official_ws/floor3_localize.sh
+[OK] /home/unitree/go2_nav_official_ws/floor3_nav_test.sh
+8.0K	/home/unitree/go2_nav_official_ws/floor3_nav_test.sh
+[OK] /home/unitree/go2_nav_official_ws/guide_floor3.sh
+4.0K	/home/unitree/go2_nav_official_ws/guide_floor3.sh
+
+========== exported files ==========
+/tmp/go2_project_export_v2/export_manifest.txt
+/tmp/go2_project_export_v2/go2_guide_project/maps/floor_1/floor_1_before_clean.pgm
+/tmp/go2_project_export_v2/go2_guide_project/maps/floor_1/floor_1_overlay.ppm
+/tmp/go2_project_export_v2/go2_guide_project/maps/floor_1/floor_1.pgm
+/tmp/go2_project_export_v2/go2_guide_project/maps/floor_1/floor_1.yaml
+/tmp/go2_project_export_v2/go2_guide_project/maps/floor_1_versions/floor_1_final_v1.pgm
+/tmp/go2_project_export_v2/go2_guide_project/maps/floor_1_versions/floor_1_final_v1.yaml
+/tmp/go2_project_export_v2/go2_guide_project/maps/floor_1_versions/floor_1_semantic_final_v1.yaml
+/tmp/go2_project_export_v2/go2_guide_project/maps/floor_3/floor_3_before_clean.pgm
+/tmp/go2_project_export_v2/go2_guide_project/maps/floor_3/floor_3.pgm
+/tmp/go2_project_export_v2/go2_guide_project/maps/floor_3/floor_3.yaml
+/tmp/go2_project_export_v2/go2_guide_project/maps/floor_3_recovered/floor_3_v2_overlay.ppm
+/tmp/go2_project_export_v2/go2_guide_project/maps/floor_3_recovered/floor_3_v2.pgm
+/tmp/go2_project_export_v2/go2_guide_project/maps/floor_3_recovered/floor_3_v2.yaml
+/tmp/go2_project_export_v2/go2_guide_project/maps/floor_3_versions/floor_3_before_recover.pgm
+/tmp/go2_project_export_v2/go2_guide_project/maps/floor_3_versions/floor_3_before_recover.yaml
+/tmp/go2_project_export_v2/go2_guide_project/maps/floor_3_versions/floor_3_final_v1.pgm
+/tmp/go2_project_export_v2/go2_guide_project/maps/floor_3_versions/floor_3_final_v1.yaml
+/tmp/go2_project_export_v2/go2_guide_project/maps/floor_3_versions/floor_3_semantic_final_v1.yaml
+/tmp/go2_project_export_v2/go2_guide_project/maps/floor_3_versions/floor_3_v1.pgm
+/tmp/go2_project_export_v2/go2_guide_project/maps/floor_3_versions/floor_3_v1.yaml
+/tmp/go2_project_export_v2/go2_guide_project/navigation/config/nav2_foxy_floor3_before_goal_tolerance.yaml
+/tmp/go2_project_export_v2/go2_guide_project/navigation/config/nav2_foxy_floor3_before_speed_tune.yaml
+/tmp/go2_project_export_v2/go2_guide_project/navigation/config/nav2_foxy_floor3_before_wall_tune.yaml
+/tmp/go2_project_export_v2/go2_guide_project/navigation/config/nav2_foxy_floor3.yaml
+/tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/bt_navigator.log
+/tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/bt_navigator.pid
+/tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/controller_server.log
+/tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/controller_server.pid
+/tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/go2_twist_bridge.log
+/tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/go2_twist_bridge.pid
+/tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/lifecycle_manager_navigation.log
+/tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/lifecycle_manager_navigation.pid
+/tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/lifecycle_manager_path.log
+/tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/lifecycle_manager_path.pid
+/tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/planner_server.log
+/tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/planner_server.pid
+/tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/recoveries_server.log
+/tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/recoveries_server.pid
+/tmp/go2_project_export_v2/go2_guide_project/semantic/building_graph.yaml
+/tmp/go2_project_export_v2/go2_guide_project/semantic/floor_1_semantic.yaml
+/tmp/go2_project_export_v2/go2_guide_project/semantic/floor_3_semantic_before_elevator_safe.yaml
+/tmp/go2_project_export_v2/go2_guide_project/semantic/floor_3_semantic.yaml
+/tmp/go2_project_export_v2/go2_nav_official_ws/debug_routes/20250516_214011_virtual_hci_lab_view_to_elevator_3f_safe.csv
+/tmp/go2_project_export_v2/go2_nav_official_ws/debug_routes/20250516_214011_virtual_hci_lab_view_to_elevator_3f_safe.png
+/tmp/go2_project_export_v2/go2_nav_official_ws/debug_routes/20250516_223756_virtual_hci_lab_view_to_elevator_3f_safe.csv
+/tmp/go2_project_export_v2/go2_nav_official_ws/debug_routes/20250516_223756_virtual_hci_lab_view_to_elevator_3f_safe.png
+/tmp/go2_project_export_v2/go2_nav_official_ws/debug_routes/20250516_224400_virtual_hci_lab_view_test_left_to_elevator_3f_safe.csv
+/tmp/go2_project_export_v2/go2_nav_official_ws/debug_routes/20250516_224400_virtual_hci_lab_view_test_left_to_elevator_3f_safe.png
+/tmp/go2_project_export_v2/go2_nav_official_ws/floor3_localize.sh
+/tmp/go2_project_export_v2/go2_nav_official_ws/floor3_nav_test.sh
+/tmp/go2_project_export_v2/go2_nav_official_ws/guide_floor3.sh
+/tmp/go2_project_export_v2/go2_nav_official_ws/scripts/capture_initialpose_yaml.py
+/tmp/go2_project_export_v2/go2_nav_official_ws/scripts/check_grids_mixed_qos.py
+/tmp/go2_project_export_v2/go2_nav_official_ws/scripts/check_map_costmap.py
+/tmp/go2_project_export_v2/go2_nav_official_ws/scripts/check_map_costmap_qos.py
+/tmp/go2_project_export_v2/go2_nav_official_ws/scripts/extract_last_map_from_bag.py
+/tmp/go2_project_export_v2/go2_nav_official_ws/scripts/find_stop_segments.py
+/tmp/go2_project_export_v2/go2_nav_official_ws/scripts/map_pose_logger.py
+/tmp/go2_project_export_v2/go2_nav_official_ws/scripts/nav2_virtual_preview_3f.py
+/tmp/go2_project_export_v2/go2_nav_official_ws/scripts/odom_tf_bridge.py
+/tmp/go2_project_export_v2/go2_nav_official_ws/scripts/overlay_pose_on_map.py
+/tmp/go2_project_export_v2/go2_nav_official_ws/scripts/overlay_stops_on_map.py
+/tmp/go2_project_export_v2/go2_nav_official_ws/scripts/pub_cmd_vel_test.py
+/tmp/go2_project_export_v2/go2_nav_official_ws/scripts/publish_initialpose_from_semantic.py
+/tmp/go2_project_export_v2/go2_nav_official_ws/scripts/publish_initial_pose_from_yaml.py
+/tmp/go2_project_export_v2/go2_nav_official_ws/scripts/send_nav_goal.py
+/tmp/go2_project_export_v2/go2_nav_official_ws/scripts/send_path_goal.py
+
+========== file sizes ==========
+-rw-rw-r-- 1 unitree unitree 1.3K May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/maps/floor_1_versions/floor_1_semantic_final_v1.yaml
+-rw-rw-r-- 1 unitree unitree 1.3K May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/semantic/floor_3_semantic.yaml
+-rw-rw-r-- 1 unitree unitree 1.3K May 16 21:09 /tmp/go2_project_export_v2/go2_guide_project/semantic/building_graph.yaml
+-rw-rw-r-- 1 unitree unitree 153 May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/go2_twist_bridge.log
+-rw-rw-r-- 1 unitree unitree 170 May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/maps/floor_3_versions/floor_3_before_recover.yaml
+-rw-rw-r-- 1 unitree unitree 170 May 16 21:01 /tmp/go2_project_export_v2/go2_guide_project/maps/floor_3_versions/floor_3_v1.yaml
+-rw-rw-r-- 1 unitree unitree 171 May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/maps/floor_3/floor_3.yaml
+-rw-rw-r-- 1 unitree unitree 171 May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/maps/floor_3_versions/floor_3_final_v1.yaml
+-rw-rw-r-- 1 unitree unitree 172 May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/maps/floor_1/floor_1.yaml
+-rw-rw-r-- 1 unitree unitree 172 May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/maps/floor_1_versions/floor_1_final_v1.yaml
+-rw-rw-r-- 1 unitree unitree 174K May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/maps/floor_3_recovered/floor_3_v2.pgm
+-rw-rw-r-- 1 unitree unitree 174K May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/maps/floor_3_versions/floor_3_final_v1.pgm
+-rw-rw-r-- 1 unitree unitree 174K May 16 21:09 /tmp/go2_project_export_v2/go2_guide_project/maps/floor_3/floor_3_before_clean.pgm
+-rw-rw-r-- 1 unitree unitree 174K May 16 21:09 /tmp/go2_project_export_v2/go2_guide_project/maps/floor_3/floor_3.pgm
+-rw-rw-r-- 1 unitree unitree 174 May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/maps/floor_3_recovered/floor_3_v2.yaml
+-rw-rw-r-- 1 unitree unitree 195K May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/maps/floor_3_versions/floor_3_before_recover.pgm
+-rw-rw-r-- 1 unitree unitree 195K May 16 21:01 /tmp/go2_project_export_v2/go2_guide_project/maps/floor_3_versions/floor_3_v1.pgm
+-rw-rw-r-- 1 unitree unitree 2.0K May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/planner_server.log
+-rw-rw-r-- 1 unitree unitree 221K May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/controller_server.log
+-rw-rw-r-- 1 unitree unitree 2.2M May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/maps/floor_1/floor_1_overlay.ppm
+-rw-rw-r-- 1 unitree unitree 29K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/debug_routes/20250516_214011_virtual_hci_lab_view_to_elevator_3f_safe.png
+-rw-rw-r-- 1 unitree unitree 29K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/debug_routes/20250516_223756_virtual_hci_lab_view_to_elevator_3f_safe.png
+-rw-rw-r-- 1 unitree unitree 30K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/debug_routes/20250516_224400_virtual_hci_lab_view_test_left_to_elevator_3f_safe.png
+-rw-rw-r-- 1 unitree unitree 46K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/debug_routes/20250516_214011_virtual_hci_lab_view_to_elevator_3f_safe.csv
+-rw-rw-r-- 1 unitree unitree 4.7K May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/navigation/config/nav2_foxy_floor3_before_goal_tolerance.yaml
+-rw-rw-r-- 1 unitree unitree 4.7K May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/navigation/config/nav2_foxy_floor3_before_speed_tune.yaml
+-rw-rw-r-- 1 unitree unitree 4.7K May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/navigation/config/nav2_foxy_floor3_before_wall_tune.yaml
+-rw-rw-r-- 1 unitree unitree 4.7K May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/navigation/config/nav2_foxy_floor3.yaml
+-rw-rw-r-- 1 unitree unitree 47K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/debug_routes/20250516_224400_virtual_hci_lab_view_test_left_to_elevator_3f_safe.csv
+-rw-rw-r-- 1 unitree unitree 521K May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/maps/floor_3_recovered/floor_3_v2_overlay.ppm
+-rw-rw-r-- 1 unitree unitree 5 May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/bt_navigator.pid
+-rw-rw-r-- 1 unitree unitree 5 May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/controller_server.pid
+-rw-rw-r-- 1 unitree unitree 5 May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/lifecycle_manager_navigation.pid
+-rw-rw-r-- 1 unitree unitree 5 May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/lifecycle_manager_path.pid
+-rw-rw-r-- 1 unitree unitree 5 May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/planner_server.pid
+-rw-rw-r-- 1 unitree unitree 5 May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/recoveries_server.pid
+-rw-rw-r-- 1 unitree unitree 602 May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/lifecycle_manager_path.log
+-rw-rw-r-- 1 unitree unitree 6.9K May 16 21:12 /tmp/go2_project_export_v2/export_manifest.txt
+-rw-rw-r-- 1 unitree unitree 6 May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/go2_twist_bridge.pid
+-rw-rw-r-- 1 unitree unitree 701 May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/maps/floor_3_versions/floor_3_semantic_final_v1.yaml
+-rw-rw-r-- 1 unitree unitree 701 May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/semantic/floor_3_semantic_before_elevator_safe.yaml
+-rw-rw-r-- 1 unitree unitree 719K May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/maps/floor_1_versions/floor_1_final_v1.pgm
+-rw-rw-r-- 1 unitree unitree 719K May 16 21:09 /tmp/go2_project_export_v2/go2_guide_project/maps/floor_1/floor_1_before_clean.pgm
+-rw-rw-r-- 1 unitree unitree 719K May 16 21:09 /tmp/go2_project_export_v2/go2_guide_project/maps/floor_1/floor_1.pgm
+-rw-rw-r-- 1 unitree unitree 777 May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/bt_navigator.log
+-rw-rw-r-- 1 unitree unitree 824 May 16 21:10 /tmp/go2_project_export_v2/go2_guide_project/semantic/floor_1_semantic.yaml
+-rw-rw-r-- 1 unitree unitree 835 May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/recoveries_server.log
+-rw-rw-r-- 1 unitree unitree 973 May 16  2025 /tmp/go2_project_export_v2/go2_guide_project/navigation/logs/floor_3/lifecycle_manager_navigation.log
+-rw-rw-r-- 1 unitree unitree 9 May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/debug_routes/20250516_223756_virtual_hci_lab_view_to_elevator_3f_safe.csv
+-rwxrwxr-x 1 unitree unitree 1.4K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/scripts/capture_initialpose_yaml.py
+-rwxrwxr-x 1 unitree unitree 1.5K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/scripts/pub_cmd_vel_test.py
+-rwxrwxr-x 1 unitree unitree 1.7K May 16 21:11 /tmp/go2_project_export_v2/go2_nav_official_ws/scripts/publish_initialpose_from_semantic.py
+-rwxrwxr-x 1 unitree unitree 1.9K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/scripts/map_pose_logger.py
+-rwxrwxr-x 1 unitree unitree 2.0K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/scripts/check_grids_mixed_qos.py
+-rwxrwxr-x 1 unitree unitree 2.0K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/scripts/check_map_costmap.py
+-rwxrwxr-x 1 unitree unitree 2.2K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/scripts/publish_initial_pose_from_yaml.py
+-rwxrwxr-x 1 unitree unitree 2.3K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/scripts/check_map_costmap_qos.py
+-rwxrwxr-x 1 unitree unitree 2.3K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/scripts/find_stop_segments.py
+-rwxrwxr-x 1 unitree unitree 2.7K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/scripts/odom_tf_bridge.py
+-rwxrwxr-x 1 unitree unitree 3.1K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/scripts/extract_last_map_from_bag.py
+-rwxrwxr-x 1 unitree unitree 3.6K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/guide_floor3.sh
+-rwxrwxr-x 1 unitree unitree 3.8K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/scripts/overlay_pose_on_map.py
+-rwxrwxr-x 1 unitree unitree 4.1K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/floor3_localize.sh
+-rwxrwxr-x 1 unitree unitree 4.4K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/scripts/send_nav_goal.py
+-rwxrwxr-x 1 unitree unitree 4.9K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/floor3_nav_test.sh
+-rwxrwxr-x 1 unitree unitree 5.4K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/scripts/overlay_stops_on_map.py
+-rwxrwxr-x 1 unitree unitree 6.0K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/scripts/send_path_goal.py
+-rwxrwxr-x 1 unitree unitree 6.7K May 16  2025 /tmp/go2_project_export_v2/go2_nav_official_ws/scripts/nav2_virtual_preview_3f.py

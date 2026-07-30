@@ -1,0 +1,52 @@
+floor: floor_3
+map: /home/unitree/go2_guide_project/maps/floor_3/floor_3.yaml
+version: floor_3_v2
+anchors:
+  elevator_3f_wait:
+    name: 三楼电梯口
+    type: transition
+    pose:
+      x: -22.5488
+      y: 0.9884
+      yaw: -2.999696
+    visual_verified: false
+    notes:
+    - 三楼电梯门外等待点
+    - 机器狗到达后应正对电梯门
+    - 后续用于电梯transition任务
+  hci_lab_view:
+    name: 人机交互实验室门口
+    type: poi
+    pose:
+      x: 4.3134
+      y: 1.4932
+      yaw: -3.019515
+    visual_verified: false
+    notes:
+    - 三楼人机交互实验室门口讲解点
+    - 后续接入相机后确认朝向是否正对门牌或实验室入口
+  elevator_3f_safe:
+    name: 三楼电梯口安全停靠点
+    type: transition
+    pose:
+      x: -22.586
+      y: 0.966
+      yaw: -3.035
+    visual_verified: true
+    visual_map:
+      folder: /home/unitree/go2_guide_project/visual_map/floor_3/elevator_3f
+      tags:
+      - 三楼电梯口
+      - 电梯
+    transition:
+      mode: elevator
+      target_floor: floor_1
+      target_anchor: elevator_1f_safe
+  hci_lab_view_test_left:
+    name: HCI门口左移虚拟测试点
+    type: debug
+    pose:
+      x: 3.3134
+      y: 1.4932
+      yaw: -3.019515
+    visual_verified: false

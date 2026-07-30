@@ -1,0 +1,163 @@
+site_name: Unitree Go2 Multi-Floor Guide Navigation
+site_description: A hands-on engineering tutorial and project showcase for a ROS 2 Foxy and Nav2 multi-floor Go2 guide robot
+site_author: Darhan
+
+site_url: https://darhan7.github.io/go2-multifloor-guide-nav/
+
+repo_url: https://github.com/Darhan7/go2-multifloor-guide-nav
+repo_name: Darhan7/go2-multifloor-guide-nav
+edit_uri: edit/main/docs/
+
+
+# The English version is built at the site root. Chinese is built at /zh/.
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.path
+    - navigation.top
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+  - i18n:
+      docs_structure: folder
+      reconfigure_material: true
+      reconfigure_search: true
+      fallback_to_default: false
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+          site_name: Unitree Go2 Multi-Floor Guide Navigation
+          site_description: A hands-on engineering tutorial and project showcase for a ROS 2 Foxy and Nav2 Go2 guide robot
+          theme:
+            language: en
+        - locale: zh
+          name: 中文
+          build: true
+          site_name: Unitree Go2 多楼层语音导览导航原型
+          site_description: 从网络、建图和 Nav2 一步步搭建 Unitree Go2 多楼层导览机器人的工程教程与项目展示
+          theme:
+            language: zh
+          nav_translations:
+            Home: 首页
+            System: 系统
+            Learning path: 阅读路线
+            Architecture: 系统架构
+            Reproduction scope: 复现范围
+            Environment matrix: 环境矩阵
+            ROS 2 building blocks: ROS 2 基础概念
+            TF and coordinate frames: TF 与坐标系
+            Reading the code: 如何阅读代码
+            Network: 虚拟机网络
+            VMware dual NIC: VMware 双网卡
+            Verify and recover: 验证与恢复
+            Mapping: 建图
+            Sensor pipeline: 传感器链路
+            Map data models: 地图数据模型
+            Collect and save: 采集与保存地图
+            Operational map boundaries: 导航区域边界整理
+            Trajectory and stops: 采集轨迹与停留点
+            Localization and Nav2: 定位与 Nav2
+            AMCL localization: AMCL 定位
+            Nav2 internals: Nav2 内部分工
+            Nav2 configuration: Nav2 配置
+            Real-robot workflow: 实机工作流
+            Planner preview: 虚拟规划
+            Reproduce preview: 复现虚拟规划
+            Debug story: 调试案例
+            Multi-floor: 多楼层
+            Semantic anchors: 语义导航点
+            Floor alignment: 楼层对齐
+            Elevator workflow: 电梯流程
+            Voice: 语音交互
+            Voice architecture: 语音架构
+            Voice integration: 语音导航集成
+            Reference: 参考
+            Troubleshooting: 故障排查
+            Engineering boundaries: 工程边界与后续工作
+            Provenance: 技术来源
+            Further learning: 进一步学习
+  - search
+
+nav:
+  - Home: index.md
+  - System:
+      - Learning path: system/learning-path.md
+      - Architecture: system/architecture.md
+      - Reproduction scope: system/reproduction-scope.md
+      - Environment matrix: system/environment.md
+      - ROS 2 building blocks: system/ros2-primer.md
+      - TF and coordinate frames: system/tf-primer.md
+      - Reading the code: system/code-guide.md
+  - Network:
+      - VMware dual NIC: network/vmware-dual-nic.md
+      - Verify and recover: network/verify-recover.md
+  - Mapping:
+      - Sensor pipeline: mapping/sensor-pipeline.md
+      - Map data models: mapping/map-data-model.md
+      - Collect and save: mapping/collect-save.md
+      - Operational map boundaries: mapping/manual-cleanup.md
+      - Trajectory and stops: mapping/trajectory-stops.md
+  - Localization and Nav2:
+      - AMCL localization: navigation/amcl.md
+      - Nav2 internals: navigation/nav2-internals.md
+      - Nav2 configuration: navigation/nav2-config.md
+      - Real-robot workflow: navigation/real-robot.md
+  - Planner preview:
+      - Reproduce preview: preview/reproduce.md
+      - Debug story: preview/debug-story.md
+  - Multi-floor:
+      - Semantic anchors: multifloor/semantic-anchors.md
+      - Floor alignment: multifloor/floor-alignment.md
+      - Elevator workflow: multifloor/elevator.md
+  - Voice:
+      - Voice architecture: voice/architecture.md
+      - Voice integration: voice/integration.md
+  - Reference:
+      - Troubleshooting: reference/troubleshooting.md
+      - Engineering boundaries: reference/limitations.md
+      - Provenance: reference/provenance.md
+      - Further learning: reference/further-learning.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+exclude_docs: |
+  README.md

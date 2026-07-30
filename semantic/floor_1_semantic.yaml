@@ -1,0 +1,37 @@
+floor: floor_1
+map: /home/unitree/go2_guide_project/maps/floor_1/floor_1.yaml
+version: floor_1_clean_v1
+
+anchors:
+  lobby_1f_start:
+    name: 一楼大厅
+    type: poi
+    pose:
+      x: 0.0
+      y: 0.0
+      yaw: 0.0
+    visual_verified: false
+    visual_map:
+      folder: /home/unitree/go2_guide_project/visual_map/floor_1/lobby_1f
+      tags:
+        - 一楼大厅
+        - 大厅
+        - 导览起点
+
+  elevator_1f_safe:
+    name: 一楼电梯口安全停靠点
+    type: transition
+    pose:
+      x: 0.0
+      y: 0.0
+      yaw: 0.0
+    visual_verified: false
+    visual_map:
+      folder: /home/unitree/go2_guide_project/visual_map/floor_1/elevator_1f
+      tags:
+        - 一楼电梯口
+        - 电梯
+    transition:
+      mode: elevator
+      target_floor: floor_3
+      target_anchor: elevator_3f_safe

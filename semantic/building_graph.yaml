@@ -1,0 +1,54 @@
+building: go2_guide_demo
+version: v1
+
+floors:
+  floor_1:
+    name: 一楼
+    map: /home/unitree/go2_guide_project/maps/floor_1/floor_1.yaml
+    semantic: /home/unitree/go2_guide_project/semantic/floor_1_semantic.yaml
+
+  floor_3:
+    name: 三楼
+    map: /home/unitree/go2_guide_project/maps/floor_3/floor_3.yaml
+    semantic: /home/unitree/go2_guide_project/semantic/floor_3_semantic.yaml
+
+transitions:
+  elevator_1_to_3:
+    type: elevator
+    from:
+      floor: floor_1
+      anchor: elevator_1f_safe
+    to:
+      floor: floor_3
+      anchor: elevator_3f_safe
+    human_required:
+      - press_elevator_button
+      - confirm_target_floor
+    robot_actions:
+      - navigate_to_elevator
+      - wait_door_open
+      - enter_elevator
+      - wait_human_press_button
+      - ask_confirm_floor
+      - exit_elevator
+      - switch_map
+
+  elevator_3_to_1:
+    type: elevator
+    from:
+      floor: floor_3
+      anchor: elevator_3f_safe
+    to:
+      floor: floor_1
+      anchor: elevator_1f_safe
+    human_required:
+      - press_elevator_button
+      - confirm_target_floor
+    robot_actions:
+      - navigate_to_elevator
+      - wait_door_open
+      - enter_elevator
+      - wait_human_press_button
+      - ask_confirm_floor
+      - exit_elevator
+      - switch_map

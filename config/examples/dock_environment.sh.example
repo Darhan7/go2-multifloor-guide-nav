@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Copy to a private local path and edit for the actual dock.
+set -e
+
+source /opt/ros/foxy/setup.bash
+source "$HOME/cyclonedds_ws/install/setup.bash"
+source "$HOME/graph_pid_ws/install/setup.bash"
+source "$HOME/go2_nav_official_ws/install/setup.bash"
+
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+export CYCLONEDDS_URI="file://$HOME/cyclonedds_ws/cyclonedds.xml"
+
+# The archived project did not explicitly set a custom ROS_DOMAIN_ID.
+# export ROS_DOMAIN_ID=0
+
+echo "ROS_DISTRO=${ROS_DISTRO:-unset}"
+echo "RMW_IMPLEMENTATION=${RMW_IMPLEMENTATION:-unset}"
+echo "CYCLONEDDS_URI=${CYCLONEDDS_URI:-unset}"

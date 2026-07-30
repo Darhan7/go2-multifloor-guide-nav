@@ -1,0 +1,114 @@
+/* Keep the primary project sections visible as top tabs on desktop. */
+.md-tabs__list {
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.md-tabs__item {
+  flex-shrink: 0;
+}
+
+.md-tabs__link {
+  font-size: 0.70rem;
+}
+
+/* A slightly more conversational opening without turning the site into a poster. */
+.project-lead {
+  font-size: 1.03rem;
+  line-height: 1.75;
+}
+
+.hero-figure {
+  margin: 1.4rem 0 1.8rem;
+  padding: 0.75rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.65rem;
+  background: var(--md-code-bg-color);
+}
+
+.hero-figure img {
+  display: block;
+  width: 100%;
+  max-height: 31rem;
+  object-fit: contain;
+}
+
+/* Show important visual evidence directly instead of hiding it inside tabs. */
+.image-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+  align-items: stretch;
+}
+
+.image-grid--2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.image-grid--3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.image-grid figure,
+.md-typeset figure {
+  margin: 0;
+}
+
+.image-grid figure {
+  display: flex;
+  flex-direction: column;
+  padding: 0.65rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.55rem;
+  background: var(--md-code-bg-color);
+}
+
+.image-grid img {
+  width: 100%;
+  height: 16rem;
+  object-fit: contain;
+}
+
+.md-typeset figcaption {
+  margin-top: 0.55rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.78rem;
+  line-height: 1.45;
+  text-align: left;
+}
+
+/* Make wide screenshots readable without breaking page layout. */
+.md-typeset img {
+  border-radius: 0.35rem;
+}
+
+.md-typeset .grid.cards > ul > li {
+  min-height: 7rem;
+}
+
+.execution-label {
+  display: inline-block;
+  padding: 0.1rem 0.45rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 76.1875em) {
+  .image-grid--3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 44.984375em) {
+  .image-grid--2,
+  .image-grid--3 {
+    grid-template-columns: 1fr;
+  }
+
+  .image-grid img {
+    height: auto;
+    max-height: 24rem;
+  }
+}

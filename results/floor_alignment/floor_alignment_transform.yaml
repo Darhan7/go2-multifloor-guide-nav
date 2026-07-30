@@ -1,0 +1,27 @@
+method: manual_landmark_affine_alignment
+reference_floor: floor_3
+moving_floor: floor_1
+landmark:
+  name: elevator_door_recess
+  floor_1_pixel_xy:
+  - 384.2031
+  - 700.5547
+  floor_3_pixel_xy:
+  - 149.9761
+  - 86.0375
+transform_floor_1_to_floor_3_pixels:
+  uniform_scale: 1.0
+  clockwise_rotation_degrees: 16.5
+  opencv_affine_matrix_2x3:
+  - - 0.95881973
+    - -0.28401534
+    - -19.43714818
+  - - 0.28401534
+    - 0.95881973
+    - -694.78770005
+assumptions:
+- Both occupancy maps are treated as having the same map scale.
+- The red hand-drawn circles identify the same elevator-door landmark.
+- The alignment is approximate and intended for building-level visualization.
+- Each floor should retain its native Nav2 coordinate frame for navigation.
+- The 3.5 m vertical separation in the exploded view is schematic, not measured.

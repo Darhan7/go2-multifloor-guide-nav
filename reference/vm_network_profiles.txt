@@ -1,0 +1,39 @@
+========== ens33 connection ==========
+connection.id:                          ens33
+connection.interface-name:              ens33
+connection.autoconnect:                 是
+ipv4.method:                            manual
+ipv4.addresses:                         192.168.123.222/24
+ipv4.gateway:                           --
+ipv4.routes:                            --
+ipv4.dns:                               --
+ipv4.never-default:                     是
+ipv6.method:                            ignore
+
+========== ens37 connection ==========
+connection.id:                          ens37
+connection.interface-name:              ens37
+connection.autoconnect:                 是
+ipv4.method:                            auto
+ipv4.addresses:                         --
+ipv4.gateway:                           --
+ipv4.routes:                            --
+ipv4.dns:                               8.8.8.8,1.1.1.1
+ipv4.never-default:                     否
+ipv6.method:                            ignore
+
+========== active devices ==========
+DEVICE  TYPE      STATE         CONNECTION 
+ens37   ethernet  已连接        ens37      
+ens33   ethernet  已连接        ens33      
+lo      loopback  连接（外部）  lo         
+
+========== addresses ==========
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+ens33            UP             192.168.123.222/24 fe80::20c:29ff:fe1f:51ce/64 
+ens37            UP             192.168.244.129/24 fe80::20c:29ff:fe1f:51d8/64 
+
+========== routes ==========
+default via 192.168.244.2 dev ens37 proto dhcp src 192.168.244.129 metric 100 
+192.168.123.0/24 dev ens33 proto kernel scope link src 192.168.123.222 metric 101 
+192.168.244.0/24 dev ens37 proto kernel scope link src 192.168.244.129 metric 100 

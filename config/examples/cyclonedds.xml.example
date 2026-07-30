@@ -1,0 +1,10 @@
+<CycloneDDS>
+  <Domain id="any">
+    <General>
+      <!-- Replace with the dock interface connected to the Go2 network. -->
+      <Interfaces>
+        <NetworkInterface name="eth0" priority="default" multicast="default"/>
+      </Interfaces>
+    </General>
+  </Domain>
+</CycloneDDS>

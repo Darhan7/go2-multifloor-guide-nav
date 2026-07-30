@@ -1,0 +1,14 @@
+# Reference package list for the archived Ubuntu 20.04 / ROS 2 Foxy runtime.
+# Review against the actual dock before installation.
+ros-foxy-rmw-cyclonedds-cpp
+ros-foxy-rosidl-generator-dds-idl
+ros-foxy-navigation2
+ros-foxy-nav2-bringup
+ros-foxy-nav2-map-server
+ros-foxy-slam-toolbox
+ros-foxy-robot-localization
+ros-foxy-pointcloud-to-laserscan
+ros-foxy-teleop-twist-keyboard
+ros-foxy-tf2-tools
+libyaml-cpp-dev
+python3-yaml
