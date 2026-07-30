@@ -1,5 +1,10 @@
 # Unitree Go2 Multi-Floor Voice-Guided Navigation Prototype
 
+[**Open the documentation website**](https://darhan7.github.io/go2-multifloor-guide-nav/)
+·
+[**阅读中文教程**](https://darhan7.github.io/go2-multifloor-guide-nav/zh/)
+
+
 This repository grew from a practical question: **how far can a Unitree Go2 EDU be pushed toward a useful indoor guide robot with the hardware and software already available in the lab?**
 
 The project starts at the bottom of the stack—networking, DDS, point clouds, TF, 2D mapping, localization and Nav2—and then adds the application layer needed for a real building: operational floor maps, semantic destinations, robot-safe approach points, a multi-floor graph, an elevator hand-off workflow, route-preview tools, and a voice-intent design.
